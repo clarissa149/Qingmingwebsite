@@ -27,7 +27,7 @@ export function Philosophy() {
             <div className="w-20 h-px bg-gradient-to-r from-rose-300 to-transparent"></div>
 
             <h2 className="text-5xl md:text-6xl leading-tight">
-              <span className="text-rose-950/30">觉察教练</span>
+              <span className="text-rose-950/30">晴明</span>
               <br />
               <span className="text-rose-950">引导你看见</span>
               <br />
@@ -89,7 +89,7 @@ export function Philosophy() {
         {/* Bottom Quote */}
         <div className="mt-32 text-center">
           <p className="text-2xl md:text-3xl text-rose-950/60 max-w-4xl mx-auto leading-relaxed">
-            "命盘不是个限制，<span className="bg-gradient-to-r from-rose-600 via-amber-600 to-pink-600 bg-clip-text text-transparent"></span>，是告诉我们可以<span className="bg-gradient-to-r from-amber-600 via-pink-600 to-rose-600 bg-clip-text text-transparent">有多少选择</span>"
+            "命盘不是个限制<span className="bg-gradient-to-r from-rose-600 via-amber-600 to-pink-600 bg-clip-text text-transparent"></span>，是告诉我们可以<span className="bg-gradient-to-r from-amber-600 via-pink-600 to-rose-600 bg-clip-text text-transparent">有多少选择</span>"
           </p>
         </div>
       </div>

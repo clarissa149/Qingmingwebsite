@@ -35,17 +35,6 @@ export function Awakening() {
           </div>
         </div>
 
-        {/* Contact */}
-        <div className="text-center">
-          <p className="mb-4 text-rose-950/60">联系我们</p>
-          <a 
-            href="mailto:hello@qingming.academy" 
-            className="text-lg text-rose-950 hover:text-rose-800 transition-colors"
-          >
-            hello@qingming.academy
-          </a>
-        </div>
-
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-rose-300/50 text-center text-sm text-rose-950/40">
           <p>© 2025 意识觉醒的旅程</p>

@@ -127,7 +127,7 @@ export function EventHighlights() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-radial from-rose-100/40 via-transparent to-transparent"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto w-full">
+      <div className="relative max-w-7xl mx-auto w-full -mt-16">
         {/* Section Header */}
         <div className="mb-20 text-center">
           <span className="text-sm tracking-[0.3em] text-rose-950/40 uppercase">Event Highlights</span>
@@ -194,17 +194,10 @@ export function EventHighlights() {
 
         {/* Closing Statement */}
         <div className="mt-24 text-center">
-          <div className="max-w-3xl mx-auto bg-gradient-to-br from-rose-50/50 to-amber-50/50 backdrop-blur-sm border border-rose-200/50 rounded-3xl p-12">
-            <p className="text-2xl text-rose-950/70 italic leading-relaxed">
-              "每一次学习，都是一次蜕变的开始。<br />
-              感谢所有同行者的信任与支持。"
-            </p>
-            <div className="mt-6 flex items-center justify-center gap-3">
-              <div className="h-px w-12 bg-gradient-to-r from-rose-400 to-transparent"></div>
-              <span className="text-sm tracking-wider text-rose-950/40">PAST HIGHLIGHTS</span>
-              <div className="h-px w-12 bg-gradient-to-l from-transparent to-rose-400"></div>
-            </div>
-          </div>
+          <p className="text-2xl md:text-3xl text-rose-950/60 max-w-4xl mx-auto leading-relaxed">
+            "每一次学习，都是一次<span className="bg-gradient-to-r from-rose-600 via-amber-600 to-pink-600 bg-clip-text text-transparent">蜕变</span>的开始。<br />
+            感谢所有<span className="bg-gradient-to-r from-amber-600 via-pink-600 to-rose-600 bg-clip-text text-transparent">同行者</span>的信任与支持。"
+          </p>
         </div>
       </div>
 

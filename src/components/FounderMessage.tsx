@@ -105,9 +105,9 @@ export function FounderMessage() {
         </div>
         
         {/* Why Create Qingming */}
-        <div className="mb-16 space-y-6">
+        <div className="mb-16 space-y-6 text-center">
           <h3 className="text-2xl text-rose-950">我为什么创立晴明？</h3>
-          <p className="text-xl text-rose-950/60 leading-relaxed pl-8">
+          <p className="text-xl text-rose-950/60 leading-relaxed">
             不是为了预测未来。<br />
             也不是为了诉你人生会走向哪里。
           </p>
@@ -127,9 +127,9 @@ export function FounderMessage() {
         </div>
 
         {/* Qingming's Role */}
-        <div className="mb-16 space-y-6">
+        <div className="mb-16 space-y-6 text-center">
           <h3 className="text-2xl text-rose-950">晴明的角色</h3>
-          <p className="text-xl text-rose-950/60 leading-relaxed pl-8">
+          <p className="text-xl text-rose-950/60 leading-relaxed">
             不是预言者，<br />
             而是让你看见未来的可能性
           </p>

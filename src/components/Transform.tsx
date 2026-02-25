@@ -1,3 +1,6 @@
+import wellChainsImage from "figma:asset/6d8c3fadc06a6053d15e105de30a137a2b9cc9dc.png";
+import mountainVictoryImage from "figma:asset/e0f9d17db45c45e888d61144b19d546da092b007.png";
+
 export function Transform() {
   return (
     <section className="relative py-32 px-6 bg-gradient-to-b from-pink-50 via-amber-50 to-rose-50 overflow-hidden">
@@ -30,10 +33,14 @@ export function Transform() {
             </div>
 
             <div className="relative h-64 bg-white/40 border border-rose-200 rounded-2xl overflow-hidden backdrop-blur-sm">
-              <div className="absolute inset-0 flex items-center justify-center text-rose-950/20">
+              <img 
+                src={wellChainsImage}
+                alt="封闭的命运观 - 从束缚中仰望光明"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-6xl mb-4">⊗</div>
-                  <div>封闭的命运观</div>
+                  <div className="text-2xl font-medium drop-shadow-lg bg-gradient-to-r text-rose-950/40 bg-clip-text text-transparent text-[#f3dbf6]">封闭的命运观</div>
                 </div>
               </div>
             </div>
@@ -49,11 +56,15 @@ export function Transform() {
 
           {/* After */}
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="relative h-64 bg-gradient-to-br from-rose-100 to-amber-100 border border-rose-300 rounded-2xl overflow-hidden backdrop-blur-sm">
-              <div className="absolute inset-0 flex items-center justify-center text-rose-950">
+            <div className="relative h-64 bg-white/40 border border-rose-200 rounded-2xl overflow-hidden backdrop-blur-sm">
+              <img 
+                src={mountainVictoryImage}
+                alt="觉醒的意识选择 - 站在山顶拥抱自由"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-6xl mb-4">◉</div>
-                  <div>觉醒的意识选择</div>
+                  <div className="text-2xl font-medium drop-shadow-lg bg-gradient-to-r from-rose-200 via-amber-200 to-pink-200 bg-clip-text text-transparent text-[#cf4f4f4d]">觉醒的意识选择</div>
                 </div>
               </div>
             </div>

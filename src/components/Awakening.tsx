@@ -37,7 +37,7 @@ export function Awakening() {
 
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-rose-300/50 text-center text-sm text-rose-950/40">
-          <p>© 2025 意识觉醒的旅程</p>
+          <p>© 2026 意识觉醒的旅程</p>
         </div>
       </div>
     </section>

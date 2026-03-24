@@ -40,7 +40,7 @@ export function Transform() {
               />
               <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-2xl font-medium drop-shadow-lg bg-gradient-to-r text-rose-950/40 bg-clip-text text-transparent text-[#f3dbf6]">封闭的命运观</div>
+                  <div className="text-2xl font-medium drop-shadow-lg bg-gradient-to-r bg-clip-text text-[#e6ddde]">封闭的命运观</div>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export function Transform() {
               />
               <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-2xl font-medium drop-shadow-lg bg-gradient-to-r from-rose-200 via-amber-200 to-pink-200 bg-clip-text text-transparent text-[#cf4f4f4d]">觉醒的意识选择</div>
+                  <div className="text-2xl font-medium drop-shadow-lg bg-gradient-to-r from-rose-200 via-amber-200 to-pink-200 bg-clip-text text-transparent text-[#fe6b6b4d]">觉醒的意识选择</div>
                 </div>
               </div>
             </div>

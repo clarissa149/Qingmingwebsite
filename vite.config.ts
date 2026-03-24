@@ -1,10 +1,11 @@
 
   import { defineConfig } from 'vite';
-  import react from '@vitejs/plugin-react-swc';
+  import react from '@vitejs/plugin-react';
+  import tailwindcss from '@tailwindcss/vite';
   import path from 'path';
 
   export default defineConfig({
-    plugins: [react()],
+    plugins: [react(), tailwindcss()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -22,6 +23,7 @@
         'figma:asset/d752ee1c8aa5abc6209dff0fc82cd34c22070e5b.png': path.resolve(__dirname, './src/assets/d752ee1c8aa5abc6209dff0fc82cd34c22070e5b.png'),
         'figma:asset/d5639b2d080cfe3aa385c7b791ce99912377a0cc.png': path.resolve(__dirname, './src/assets/d5639b2d080cfe3aa385c7b791ce99912377a0cc.png'),
         'figma:asset/be3d653347b1757b47a29a4e9b20dea4844b3910.png': path.resolve(__dirname, './src/assets/be3d653347b1757b47a29a4e9b20dea4844b3910.png'),
+        'figma:asset/a23fe0e3222c36cc93797c3326d4d70d4db1362c.png': path.resolve(__dirname, './src/assets/a23fe0e3222c36cc93797c3326d4d70d4db1362c.png'),
         'figma:asset/a05dcb57bc3a66bed28140121dcb514118e2d267.png': path.resolve(__dirname, './src/assets/a05dcb57bc3a66bed28140121dcb514118e2d267.png'),
         'figma:asset/988fa14e56481ce23120b5dde57fe2a5a18f3a2c.png': path.resolve(__dirname, './src/assets/988fa14e56481ce23120b5dde57fe2a5a18f3a2c.png'),
         'figma:asset/8695ef5e36d56e685aabe483d3ded24f4e32b9eb.png': path.resolve(__dirname, './src/assets/8695ef5e36d56e685aabe483d3ded24f4e32b9eb.png'),

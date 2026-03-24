@@ -121,7 +121,7 @@ export function EventHighlights() {
   };
 
   return (
-    <section className="relative min-h-screen py-32 px-6 bg-gradient-to-b from-amber-50 via-rose-50 to-pink-100 flex items-center">
+    <section id="event-highlights" className="relative min-h-screen py-32 px-6 bg-gradient-to-b from-amber-50 via-rose-50 to-pink-100 flex items-center">
       {/* Radial Gradient Background */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-radial from-rose-100/40 via-transparent to-transparent"></div>

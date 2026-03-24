@@ -57,10 +57,7 @@ export function Hero() {
             size="lg" 
             className="bg-gradient-to-r from-rose-500 to-amber-500 text-white hover:from-rose-600 hover:to-amber-600 px-12 py-8 text-lg rounded-full group shadow-xl w-52"
             onClick={() => {
-              const philosophySection = document.querySelector('[data-section="philosophy"]');
-              if (philosophySection) {
-                philosophySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }
+              window.open('https://wa.me/+60192144916', '_blank');
             }}
           >
             开始觉察
@@ -71,9 +68,9 @@ export function Hero() {
             variant="ghost"
             className="text-rose-950 border-2 border-rose-300 hover:bg-rose-100/50 px-12 py-8 text-lg rounded-full"
             onClick={() => {
-              const academySection = document.querySelector('[data-section="academy"]');
-              if (academySection) {
-                academySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              const element = document.getElementById('event-highlights');
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }
             }}
           >

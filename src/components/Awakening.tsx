@@ -28,6 +28,9 @@ export function Awakening() {
             <Button 
               size="lg"
               className="bg-gradient-to-r from-rose-500 to-amber-500 text-white hover:from-rose-600 hover:to-amber-600 px-32 py-8 text-lg rounded-full group shadow-xl"
+              onClick={() => {
+                window.open('https://wa.me/+60192144916', '_blank');
+              }}
             >
               预约觉察会谈
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

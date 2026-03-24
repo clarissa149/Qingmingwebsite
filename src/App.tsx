@@ -3,6 +3,7 @@ import { FounderMessage } from "./components/FounderMessage";
 import { SeedPhilosophy } from "./components/SeedPhilosophy";
 import { Philosophy } from "./components/Philosophy";
 import { Transform } from "./components/Transform";
+import { UpcomingEvent } from "./components/UpcomingEvent";
 import { EventHighlights } from "./components/EventHighlights";
 import { Awakening } from "./components/Awakening";
 
@@ -23,6 +24,9 @@ export default function App() {
       </div>
       <div className="snap-start min-h-screen">
         <Transform />
+      </div>
+      <div className="snap-start min-h-screen">
+        <UpcomingEvent />
       </div>
       <div className="snap-start min-h-screen">
         <EventHighlights />
